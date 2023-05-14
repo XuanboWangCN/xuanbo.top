@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Xuanbo Home</title>
+    <meta name="description" content="xuanbo的主页">
+    <meta name="keywords" content="xuanbo主页">
+    <link rel="icon" type="image/ico" href="https://blog.xuanbo.top/img/weblogo.png">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="./static/style.css?v=1.1">
+    <link rel="stylesheet" href="./static/APlayer-1.10.1/dist/APlayer.min.css">
+    <style>
+        body{
+            /*背景图片URL 可使用随机图片API */
+            background-image: url("https://ts1.cn.mm.bing.net/th?id=OIP-C.1NfoXGkfmkdRSfT78A0pzgHaEK&w=178&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"); 
+        }
+        .photo-bg {
+            /* 卡片左侧图片 */
+            background-image: url("https://bu.dusays.com/2023/05/12/645e33f7cdbc3.png");
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <h2>Xuanbo Home</h2>
+                <p>Share the fun
+                </p>
+                <p id="hitokoto_text">独乐乐不如众乐乐</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <a href="https://blog.xuanbo.top/" target="_blank" class="btn btn-secondary col-lg-4">Blog</a>
+                        <a href="https://github.com/XuanboWangCN/" target="_blank" class="btn btn-dark col-lg-4">My GitHub</a>
+                        <a href="https://music.xuanbo.top/" target="_blank" class="btn btn-success col-lg-4">Music</a>
+                        <a href="https://music.163.com/#/user/home?id=6458084204" target="_blank" class="btn btn-danger col-lg-4">My 163 CloudMusic</a>
+                        <a href="https://status.dusays.com/status/xuanbo" target="_blank" class="btn btn-info col-lg-4">状态</a>
+                        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="https://music.163.com/outchain/player?type=2&id=500665346&auto=0&height=32"></iframe>
+                    </div>
+                </div>
+                <!-- <audio muted></audio> -->
+                <div id="aplayer-inner" class="aplayer"></div>
+
+                <!-- <h4 class="mt-4">or, keep your eyes on</h4> -->
+                <ul class="social mt-1">
+                    <!-- <li><a href="https://www.zhihu.com/people/kaygb/"><i class="fab fa-zhihu" aria-hidden="true"></i></a></li> -->
+                    <li><a href="https://blog.xuanbo.top/"><i class="fa fa-blog" aria-hidden="true"></i></a></li>     
+                </ul>
+                
+                <!-- <div id="aplayer" class="aplayer" data-order="random" data-id="20173709" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div> -->
+                <footer>
+                    <p>Copyright 2022 - Now <a href="https://github.com/XuanboWangCN" target="_blank">XuanboWangCN</a>
+                        <br>Mod by
+                        <a href="https://github.com/XuanboWangCN" target="_blank" rel="">XuanboWangCN</a>
+                        <a href="https://github.com" target="_blank" rel="nofollow"><img src="https://github.com/favicon.ico" style="width:15px;"></a>
+                        
+
+                    </p>
+                    </p>
+
+                </footer>
+            </div>
+        </div>
+
+    </div>
+    <!-- aplayer -->
+    <div id="aplayer-fixed"  class="aplayer"></div>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./static/APlayer-1.10.1/dist/APlayer.min.js"></script>
+    <script src="./static/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./static/layer-v3.5.1/layer/layer.js"></script>
+    <!-- <script src="./static/main.js"></script> -->
+    <script src="./static/main.js"></script>
+
+</html>
